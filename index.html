@@ -18,18 +18,24 @@
 
 <body class="bg-light">
 
-  <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center bg-light mt-3 mt-lg-4">
+  <nav class="navbar navbar-light d-flex justify-content-center bg-light mt-3 mt-lg-4">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 justify-content-center">
 
-    <a class="navbar-brand" href="#">Tarot Card Meanings</a>
-  
-    <form class="form-inline my-2 my-lg-0">
-      <input id="keyword-search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" onkeyup="searchBox()">
-      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-    </form>
-  
+      <div class="col justify-content-center text-center mt-1 mb-3">
+        <a class="navbar-brand" href="#">Tarot Card Meanings</a>
+      </div>
+      
+      <div class="col justify-content-center mt-1">
+        <form class="form-inline">
+            <input id="keyword-search" class="form-control" type="search" placeholder="Search card by name" aria-label="Search" onkeyup="searchBox()">
+          </form>
+      </div>
+      
+
+    </div>
   </nav>
 
-  <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 g-4 p-3 p-md-1 p-lg-4 m-3 m-lg-4">
+  <div class="row row-cols-1 row-cols-md-3 row-cols-xl-4 g-4 p-3 p-md-1 p-lg-4 m-3 m-lg-4 mt-1">
 
     <div class="col tarot-card major-arcana"> 
       <div class="card">
